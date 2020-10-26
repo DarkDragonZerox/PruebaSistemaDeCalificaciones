@@ -10,7 +10,7 @@ public class Alumno {
 	String apellido;
 	String direccion;
 	List<String> materias=new ArrayList<String>();
-	public String getRut() {
+	public static String getRut() {
 		return rut;
 	}
 	public void setRut(String rut) {
@@ -44,6 +44,14 @@ public class Alumno {
 	public String toString() {
 		return "Alumno [rut=" + rut + ", nombre=" + nombre + ", apellido=" + apellido + ", direccion=" + direccion
 				+ ", materias=" + materias + "]";
+	}
+	protected Alumno(String rut, String nombre, String apellido, String direccion, List<String> materias) {
+		super();
+		this.rut = rut;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.direccion = direccion;
+		this.materias = materias;
 	}
 	
 	
