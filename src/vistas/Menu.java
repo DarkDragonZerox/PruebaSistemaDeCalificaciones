@@ -4,44 +4,51 @@ public class Menu extends MenuTemplate {
 
 	@Override
 	public void cargarDatos() {
+		// TODO Auto-generated method stub
 		
-		super.cargarDatos();
 	}
 
 	@Override
 	public void expotarDatos() {
+		// TODO Auto-generated method stub
 		
-		super.expotarDatos();
 	}
 
 	@Override
 	public void crearAlumno() {
+		// TODO Auto-generated method stub
 		
-		super.crearAlumno();
 	}
 
 	@Override
 	public void agregarMateria() {
+		// TODO Auto-generated method stub
 		
-		super.agregarMateria();
 	}
 
 	@Override
 	public void agregarNotasPasoUno() {
+		// TODO Auto-generated method stub
 		
-		super.agregarNotasPasoUno();
 	}
 
 	@Override
 	public void listarAlumnos() {
+		// TODO Auto-generated method stub
 		
-		super.listarAlumnos();
 	}
 
 	@Override
 	public void terminarPrograma() {
+		// TODO Auto-generated method stub
 		
-		super.terminarPrograma();
 	}
+
+	@Override
+	public void iniciarMenu() {
+		// TODO Auto-generated method stub
+		super.iniciarMenu();
+	}
+
 
 }

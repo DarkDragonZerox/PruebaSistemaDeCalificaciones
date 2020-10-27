@@ -1,33 +1,21 @@
 package vistas;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MenuTemplate {
+public abstract class MenuTemplate {
 Scanner sc =new Scanner (System.in);
 
 
 
-public void cargarDatos() {
-	
-}
-public void expotarDatos() {
-	
-}
-public void crearAlumno() {
-	
-}
-public void agregarMateria() {
-	
-}
-public void agregarNotasPasoUno() {
-	
-}
-public void listarAlumnos() {
-	
-}
-public void terminarPrograma() {
-	
-}
+public abstract void cargarDatos(); 
+
+public abstract void expotarDatos() ;
+public abstract void crearAlumno() ;
+public abstract void agregarMateria(); 
+public abstract void agregarNotasPasoUno(); 
+public abstract void listarAlumnos() ;
+public abstract void terminarPrograma() ;
 public void iniciarMenu() {
 	boolean salir =false;
 	int option;
@@ -68,7 +56,7 @@ public void iniciarMenu() {
 	default:
 		System.out.println("Solo numeros entre 1 y 7");
 	}
-	}catch(InputMismatchExepcion e) {
+	}catch(InputMismatchException e) {
 		System.out.println("debes Insertar un numero");
 		sc.next();
 	}
