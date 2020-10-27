@@ -2,7 +2,7 @@ package modelos;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
+
 
 public class Alumno {
 	String rut;
@@ -10,7 +10,7 @@ public class Alumno {
 	String apellido;
 	String direccion;
 	List<String> materias=new ArrayList<String>();
-	public static String getRut() {
+	public String getRut() {
 		return rut;
 	}
 	public void setRut(String rut) {
