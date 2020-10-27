@@ -45,14 +45,14 @@ public class Alumno {
 		return "Alumno [rut=" + rut + ", nombre=" + nombre + ", apellido=" + apellido + ", direccion=" + direccion
 				+ ", materias=" + materias + "]";
 	}
-	protected Alumno(String rut, String nombre, String apellido, String direccion, List<String> materias) {
+	/*protected Alumno(String rut, String nombre, String apellido, String direccion, List<String> materias) {
 		super();
 		this.rut = rut;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.direccion = direccion;
 		this.materias = materias;
-	}
+	}*/
 	
 	
 	
