@@ -20,12 +20,13 @@ public void setListaAlumnos(Map<String, Alumno> listaAlumnos) {
 
    public Alumno crearAlumno(String pRut, String pNombre,String pApellido, String pDireccion, List<String>pMaterias)
    	{
-   		String rut =pRut;
+   		
+	  
+	  String rut =pRut;
    		String nombre=pNombre;
    		String apellido=pApellido;
    		String direccion= pDireccion;
-   		List <String> materias= pMaterias;
-		
+   		List <String> materias= pMaterias;	
    		return Alumno;
    		
    		
