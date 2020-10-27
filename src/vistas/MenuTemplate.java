@@ -37,6 +37,7 @@ public void iniciarMenu() {
 		break;
 	case 2:
 		System.out.println("---ListarAlumnos---");
+		
 		break;
 	case 3:
 		System.out.println("---Agregar Materias---");
@@ -46,6 +47,7 @@ public void iniciarMenu() {
 		break;
 	case 5:
 		System.out.println("---Cargar Datos---");
+		cargarDatos();
 		break;
 	case 6:
 		System.out.println("---Exportar Datos---");
